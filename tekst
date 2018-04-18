@@ -1,0 +1,42 @@
+sudo apt-get install git    //  (Instalacija)
+
+sudo git clone https://github.com/git/git   //  (Update)
+
+///////// Udji u folder koji ce ti biti folder za git i udji u terminal iz tog foldera i ukluci show hidden files ////////////
+
+git init  // (git initialize)
+
+git status  // (Pokazuje status u odnosu na git folder i fajlova koji postoje)
+
+git add test.txt // (Umesto 'test.txt' ide bilo koji fajl)
+
+git status  // (Status se sada promenio jer smo dodali fajl, ali i dalje moramo da ukucamo commit)
+
+
+git config --global user.email "dpusic93@gmail.com"  //
+
+
+git config --global user.name "Danilo Pusic"  //
+
+
+git commit -m "initial commit"   //  ( '-m'=message ; initial commit = ovo je poruka, za opis sta menjas, koju saljes kada menjas initial repository za git)
+
+git branch test  //  (Dodaje granu u gitu koja se commituje u odnosu na glavni projekat, umesto <test> stavis bilo koji naziv)
+
+git branch  //  prikazuje sve grane (znak '*' znaci da je ta grana selektovana)
+
+git checkout test   //   (Menja granu koja je selektovana = 'test' - naziv bilo koje grane)
+
+git checkout -b   //   (U isto vreme pravi novu granu i selektuje je)
+
+git add .
+
+git commit -m "messed everything up"
+
+git checkout master
+
+git checkout test
+
+
+
+
